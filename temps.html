@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le temps</title>
-    <link href="style.css" rel="stylesheet">
-</head>
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Le temps</title>
+         <link href="style.css" rel="stylesheet">
+    </head>
 
     <body>
         
@@ -16,24 +16,79 @@
             </div>
         <h1><markstyle="background-color:rgb(255, 99, 71);">il fait beau aujourd'hui </mark></h1>
         <h2>lorsque c'est l'été le soleil brille de mille feu </h2>
-        <p>Par le temps et le peu, nous voyons ce que la force et la rage ne pourraient jamais</p>
-        <h3> qu'est-ce qu'a besoin du temps ?</h3>
-        <ul>
+        <main>
+
+         <p>Par le temps et le peu, nous voyons ce que la force et la rage ne pourraient jamais</p>
+         <h3> qu'est-ce qu'a besoin du temps ?</h3>
+         <ul>
             <li>santer</li>
             <li>argent </li>
             <li>famille</li>
             <li>amis</li>
             <li>dormir</li>
             <li>manger</li>
-        </ul>
-        <p>
-            Voici de très belles photos :<br>
-            <img src="paysage.jpeg" alt="Photo de paysage de bon temps" />
-            <img src="montre.jpeg" title="l'heure tourne ?" alt="horloge">
+         </ul>
+       </main>
+       <aside>
+         <img class src="montre.jpeg" title="montre le temps" alt="horloge">
+         <img class src="paysage.jpeg" title="dine d'un tableau" alt="paysage">
+       </aside>
+        <div class ="etoile">
             
-        </p>
-        
-    </body>
-   
-        
+            <img class="image"src="etoile.jpeg" title="une etoile filante" alt="etoile"> 
+        <div>
+         Devant la porte de l'usine
+         le travailleur soudain s'arrête
+         le beau temps l'a tiré par la veste
+         et comme il se retourne
+         et regarde le soleil
+         tout rouge tout rond
+         souriant dans son ciel de plomb
+         il cligne de l'oil
+         familièrement
+         Dis donc camarade Soleil 
+         tu ne trouves pas
+         que c'est plutôt con
+         de donner une journée pareille
+         à un patron?
+        </div>  
+        </div>
+        <footer class="mon-element">
+            <h1>DEFINITIONS DU TEMPS...</h1>
+            <p3>voici un site ou vous trouverais les définitions du temps :<a href="https://www.larousse.fr/dictionnaires/francais/temps/77238#:~:text=1.,Vous%20oublierez%20avec%20le%20temps." title="Cliquez ici">def temps
+              </a>
+            </p3>
+            <p>Maintenant un petit jeu de question s'offrea a vous (culture generale)</p>
+            <form method="get" action="">
+                <p>
+                    <label for="ameliorer">qu'est ce qu'a besoin de temps?</label><br>
+                    <textarea name="ameliorer" id="ameliorer"></textarea>
+                </p>
+                <form method="get" action="">
+                    <p>
+                        l'été c'est le :<br>
+                        <input type="checkbox" name="1er mars au 31 mai" id="1er mars au 31 mai"> <label for="1er mars au 31 mai">1er mars au 31 mai</label><br>
+                        <input type="checkbox" name="1er juin au 31 août" id="1er juin au 31 août"> <label for="1er juin au 31 août">1er juin au 31 août</label><br>
+                        <input type="checkbox" name="1er septembre au 30 novembre " id="1er septembre au 30 novembre "> <label for="1er septembre au 30 novembre ">1er septembre au 30 novembre </label><br>
+                        <input type="checkbox" name="1er décembre au 28 (ou 29) février" id="1er décembre au 28 (ou 29) févriers"> <label for="1er décembre au 28 (ou 29) février">1er décembre au 28 (ou 29) février</label>
+                    </p>
+                    <form method="get" action="">
+                        <p4>
+                            <label for="pays">comment mesure t'on une temperature en france ?</label><br>
+                            <select name="pays" id="pays">
+                                <option value="espagne">$</option>
+                                <option value="royaume-uni">°C</option>
+                                <option value="canada">F°</option>
+                                <option value="japon">C°</option>
+                            </select>
+                        </p4>
+                        
+
+                    </form>
+                </form>
+            </form>
+
+        </footer>
+       
+    </body>  
 </html>
